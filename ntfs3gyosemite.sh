@@ -2,13 +2,13 @@
 brew uninstall osxfuse
 
 #Install OSXFUSE
-brew install caskroom/cask/brew-cask  # installs Homebrew Cask
+brew install Caskroom/cask/osxfuse  # installs Homebrew Cask
 brew cask install osxfuse # install osxfuse
  
 #Reboot (optional but recommended by osxfuse)
  
 #Install ntfs-3g via homebrew:
-brew update && brew install ntfs-3g
+brew update && brew install homebrew/fuse/ntfs-3g
  
 #mount_ntfs:
 sudo mv /sbin/mount_ntfs /sbin/mount_ntfs.original
